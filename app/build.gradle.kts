@@ -8,6 +8,10 @@ android {
     namespace = "com.example.projectroom"
     compileSdk {
         version = release(36)
+
+        buildFeatures{
+            viewBinding=true
+        }
     }
 
     defaultConfig {
